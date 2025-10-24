@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tokeet - AdvanceCM Email Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <!--[if mso]>
     <noscript>
         <xml>
@@ -27,14 +31,23 @@
     <![endif]-->
     <style type="text/css">
         /* Reset styles */
-        body, table, td, p, a, li, blockquote {
+        body,
+        table,
+        td,
+        p,
+        a,
+        li,
+        blockquote {
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
         }
-        table, td {
+
+        table,
+        td {
             mso-table-lspace: 0pt;
             mso-table-rspace: 0pt;
         }
+
         img {
             -ms-interpolation-mode: bicubic;
             border: 0;
@@ -43,162 +56,277 @@
             outline: none;
             text-decoration: none;
         }
+
         /* Responsive styles */
         @media only screen and (max-width: 600px) {
-            .mobile-center { text-align: center !important; }
-            .mobile-padding { padding: 20px !important; }
-            .mobile-font-size { font-size: 16px !important; }
-            .mobile-button { width: 100% !important; }
-            .mobile-hide { display: none !important; }
-            .mobile-full-width { width: 100% !important; }
-            .mobile-stack { display: block !important; width: 100% !important; }
-            .mobile-header-padding { padding: 20px !important; }
-            .mobile-section-padding { padding: 0 20px 30px 20px !important; }
-            .mobile-title { font-size: 24px !important; line-height: 1.2 !important; }
-            .mobile-subtitle { font-size: 18px !important; }
-            .mobile-text { font-size: 14px !important; }
-            .mobile-button-padding { padding: 15px 20px !important; }
-            .mobile-social-spacing { padding: 0 4px !important; }
-            .mobile-image { max-width: 100% !important; height: auto !important; }
-            .mobile-table { width: 100% !important; }
+            .mobile-center {
+                text-align: center !important;
+            }
+
+            .mobile-padding {
+                padding: 20px !important;
+            }
+
+            .mobile-font-size {
+                font-size: 16px !important;
+            }
+
+            .mobile-button {
+                width: 100% !important;
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .mobile-full-width {
+                width: 100% !important;
+            }
+
+            .mobile-stack {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .mobile-header-padding {
+                padding: 20px !important;
+            }
+
+            .mobile-section-padding {
+                padding: 0 20px 30px 20px !important;
+            }
+
+            .mobile-title {
+                font-size: 24px !important;
+                line-height: 1.2 !important;
+            }
+
+            .mobile-subtitle {
+                font-size: 18px !important;
+            }
+
+            .mobile-text {
+                font-size: 14px !important;
+            }
+
+            .mobile-button-padding {
+                padding: 15px 20px !important;
+            }
+
+            .mobile-social-spacing {
+                padding: 0 4px !important;
+            }
+
+            .mobile-image {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            .mobile-table {
+                width: 100% !important;
+            }
         }
-        
+
         /* Dark mode support */
         @media (prefers-color-scheme: dark) {
-            .dark-mode-bg { background-color: #1a1a1a !important; }
-            .dark-mode-text { color: #ffffff !important; }
+            .dark-mode-bg {
+                background-color: #1a1a1a !important;
+            }
+
+            .dark-mode-text {
+                color: #ffffff !important;
+            }
         }
-        
+
         /* High contrast mode support */
         @media (prefers-contrast: high) {
-            .high-contrast { border: 2px solid #000000 !important; }
+            .high-contrast {
+                border: 2px solid #000000 !important;
+            }
         }
     </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, Helvetica, sans-serif;">
+
+<body style="margin: 0; padding: 0; background-color: #f5f5f5;">
     <!-- Main container table -->
-    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f4f4f4;">
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+        style="background-color: #f4f4f4; font-family: Poppins, Arial, Helvetica, sans-serif;">
         <tr>
             <td align="center" style="padding: 20px 0;">
                 <!-- Email content table -->
-                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="mobile-table" style="background-color: #ffffff; max-width: 600px; width: 100%;">
-                    
-                    <!-- Header Section -->
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="640" class="mobile-table"
+                    style="max-width: 640px; width: 100%; padding-bottom: 24px;">
+
                     <tr>
-                        <td class="mobile-header-padding" style="padding: 40px 40px 30px 40px;">
+                        <td class="mobile-header-padding">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <tr>
-                                    <td width="50" style="vertical-align: top;">
+                                    <td width="60" style="vertical-align: top;">
                                         <!-- Logo -->
-                                        <img src="images/logo.png" alt="Tokeet Logo" width="40" height="40" style="display: block; width: 40px; height: 40px;">
+                                        <a href="#" target="_blank">
+                                            <img src="images/logo.png" alt="Logo" style="display: block; width: 42px;">
+                                        </a>
                                     </td>
-                                    <td align="right" style="vertical-align: top; padding-top: 8px;">
-                                        <a href="#" style="color: #007bff; text-decoration: underline; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal;">Subscribe</a>
-                                        <span style="color: #666666; font-size: 14px; font-family: Arial, Helvetica, sans-serif; margin: 0 8px;">|</span>
-                                        <span style="color: #343a40; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">Join 130,000 property managers</span>
+                                    <td align="right"
+                                        style="vertical-align: top; padding-top: 5px; text-decoration: underline; text-decoration-color: #627A8B;">
+                                        <a href="#"
+                                            style="color: #5494D3; text-decoration: none; font-size: 14px; font-weight: 500;">Subscribe</a>
+                                        <span
+                                            style="color: #627A8B; font-size: 14px; font-weight: 500; margin: 0 6px;">|</span>
+                                        <span style="color: #627A8B; font-size: 14px; font-weight: 500;">Join
+                                            <span style="font-weight: 600; color: #000000;">130,000</span> property
+                                            managers</span>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    
+                </table>
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="640" class="mobile-table"
+                    style="background-color: #ffffff; max-width: 640px; width: 100%;">
                     <!-- Discovery Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 40px 40px;">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <td class="mobile-section-padding">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                                style="background: #fdfaf1; padding: 26px 54px;">
                                 <tr>
-                                    <td width="30" style="vertical-align: top; padding-top: 3px;">
+                                    <td>
                                         <!-- Lightbulb icon -->
-                                        <img src="images/bulb.png" alt="Lightbulb" width="20" height="20" style="display: block; width: 20px; height: 20px;">
+                                        <img src="images/bulb.png" alt="Lightbulb"
+                                            style="display: block; width: 50px; ">
                                     </td>
-                                    <td style="padding-left: 12px;">
-                                        <h2 style="margin: 0; font-size: 18px; font-weight: bold; color: #343a40; font-family: Arial, Helvetica, sans-serif; line-height: 1.2;">Discover AdvanceCM</h2>
-                                        <p style="margin: 8px 0 0 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5;">
-                                            Tokeet's latest version. <a href="#" style="color: #007bff; text-decoration: underline;">Try it for free</a>, same credentials, same backend, switch back anytime.
-                                        </p>
-                                        <p style="margin: 8px 0 0 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5;">
-                                            <a href="#" style="color: #007bff; text-decoration: underline;">Switch to AdvanceCM</a>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2
+                                            style="margin: 0; font-size: 16px; font-weight: 600; color: #222426; line-height: 1.2; padding-top: 12px;">
+                                            Discover AdvanceCM</h2>
+                                        <p
+                                            style="margin: 8px 0 0 0; font-size: 16px; color: #475059; line-height: 1.5; font-weight: 500;">
+                                            Tokeet's latest version. <a href="#"
+                                                style="color: #5494D3; text-decoration: underline;">Try it for free</a>,
+                                            same credentials, same backend, switch back anytime. <a href="#"
+                                                style="color: #5494D3; text-decoration: underline;">Switch to
+                                                AdvanceCM</a>.
                                         </p>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    
+
                     <!-- Main Feature Graphic Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 50px 40px; text-align: center;">
-                            <img src="images/first-banner.png" alt="Feature Graphic" width="520" height="312" class="mobile-image" style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
+                        <td class="mobile-section-padding" style="padding: 14px 40px 20px 40px; text-align: center;">
+                            <img src="images/first-banner.png" alt="Feature Graphic" width="520" height="312"
+                                class="mobile-image"
+                                style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
                         </td>
                     </tr>
-                    
+
                     <!-- Guest Autopilot Wizard Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 50px 40px;">
-                            <h1 class="mobile-title" style="margin: 0 0 20px 0; font-size: 28px; font-weight: bold; color: #343a40; font-family: Arial, Helvetica, sans-serif; line-height: 1.2; text-align: center;">
-                                Two powerful updates to <span style="color: #4CAF50;">save you time</span> & boost guest satisfaction.
+                        <td class="mobile-section-padding" style="padding: 0 54px 20px 54px;">
+                            <h1 class="mobile-title"
+                                style="margin: 0 0 20px 0; font-size: 37px; font-weight: 600; color: #222426; line-height: 50px">
+                                Two powerful updates to <span style="color: #55CA3D;">save you time</span> & boost guest
+                                satisfaction.
                             </h1>
-                            <h2 class="mobile-subtitle" style="margin: 0 0 15px 0; font-size: 22px; font-weight: bold; color: #343a40; font-family: Arial, Helvetica, sans-serif; text-align: center;">Guest Autopilot Wizard</h2>
-                            <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: center;">
+                            <h2 class="mobile-subtitle"
+                                style="padding-top:18px; font-size: 22px; font-weight: 600; color: #475059; margin-bottom: 8px;">
+                                Guest Autopilot Wizard</h2>
+                            <p class="mobile-text"
+                                style="margin: 0 0 15px 0; font-size: 18px; color: #475059; font-weight: 500;">
                                 Automate repetitive guest-related tasks like
                             </p>
-                            <ul class="mobile-text" style="margin: 0 0 15px 0; padding-left: 20px; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: left;">
+                            <ul class="mobile-text"
+                                style="margin: 0 0 12px 0; padding-left: 20px; font-size: 18px; color: #475059; font-weight: 500;">
                                 <li style="margin-bottom: 8px;">Sending WhatsApp welcome messages to new guests</li>
-                                <li style="margin-bottom: 8px;">Notifying your team when a guest is created or updated</li>
+                                <li style="margin-bottom: 8px;">Notifying your team when a guest is created or updated
+                                </li>
                             </ul>
-                            <p class="mobile-text" style="margin: 0 0 25px 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: center;">
+                            <p class="mobile-text"
+                                style="margin: 0 0 25px 0; font-size: 18px; color: #475059; line-height: 29px; padding-top: 10px; font-weight: 500;">
                                 Keep your communication consistent and your team aligned.
                             </p>
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                style="padding: 58px 0px;">
                                 <tr>
-                                    <td class="mobile-button-padding" style="background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 6px; padding: 12px 25px;">
-                                        <a href="#" style="color: #343a40; text-decoration: none; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">Learn how it works</a>
+                                    <td class="mobile-button-padding"
+                                        style="border: 1px solid #7E7E7E; border-radius: 40px; padding: 11px 43px;">
+                                        <a href="#"
+                                            style="color: #475059; text-decoration: none; font-size: 18px; font-weight: 700;">Learn
+                                            how it works</a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    
+
                     <!-- Airbnb Host Reservation Alteration Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 50px 40px;">
-                            <h2 class="mobile-subtitle" style="margin: 0 0 15px 0; font-size: 22px; font-weight: bold; color: #343a40; font-family: Arial, Helvetica, sans-serif; text-align: center;">
-                                Airbnb Host <span style="color: #4CAF50;">Reservation</span> Alteration
+                        <td class="mobile-section-padding" style="padding: 0 54px 40px 54px;">
+                            <h2 class="mobile-subtitle"
+                                style="margin: 0 0 15px 0; font-size: 37px; font-weight: 600; line-height: 50px; color: #222426;">
+                                Airbnb Host <span style="color: #55CA3D;">Reservation</span> Alteration
                             </h2>
-                            <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: center;">
+                            <p class="mobile-text"
+                                style="margin: 0 0 15px 0; font-size: 22px; font-weight: 600; color: #475059; line-height: 35px;">
                                 Edit Airbnb reservations directly in AdvanceCM
                             </p>
-                            <ul class="mobile-text" style="margin: 0 0 15px 0; padding-left: 20px; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: left;">
-                                <li style="margin-bottom: 8px;">Change reservation dates, guest count, or total price from within AdvanceCM</li>
-                                <li style="margin-bottom: 8px;">Send alteration requests to guests for approval through the Airbnb portal</li>
-                                <li style="margin-bottom: 8px;">You can cancel reservation alteration request any time inside ACM</li>
+                            <ul class="mobile-text"
+                                style="margin: 0 0 15px 0; padding-left: 20px; font-size: 18px; color: #475059; line-height: 33px; text-align: left; font-weight: 500;">
+                                <li style="margin-bottom: 8px;">Change reservation dates, guest count, or total price
+                                    from within AdvanceCM</li>
+                                <li style="margin-bottom: 8px;">Send alteration requests to guests for approval through
+                                    the Airbnb portal</li>
+                                <li style="margin-bottom: 8px;">You can cancel reservation alteration request any time
+                                    inside ACM</li>
                             </ul>
-                            <p class="mobile-text" style="margin: 0 0 25px 0; font-size: 14px; color: #6c757d; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; text-align: center;">
+                            <p class="mobile-text"
+                                style="margin: 0 0 25px 0; font-size: 18px; color: #475059; line-height: 33px; font-weight: 500;">
                                 No more switching platforms - manage it all in one place.
                             </p>
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                style="padding-top: 20px;">
                                 <tr>
-                                    <td class="mobile-button-padding" style="background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 6px; padding: 12px 25px;">
-                                        <a href="#" style="color: #343a40; text-decoration: none; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">See the full guide</a>
+                                    <td class="mobile-button-padding"
+                                        style="border: 1px solid #7E7E7E; border-radius: 40px; padding: 11px 43px;">
+                                        <a href="#"
+                                            style="color: #475059; text-decoration: none; font-size: 18px; font-weight: 700;">
+                                            See the full guide</a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    
+
                     <!-- Call to Action Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 50px 40px;">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <td class="mobile-section-padding" style="padding: 0 54px 50px 54px;">
+                            <p class="mobile-text"
+                                style="margin: 0 0 20px 0; font-size: 18px; color: #272727; line-height: 33px; font-weight: 500;">
+                                Start using these features today and streamline your property management like never
+                                before.
+                            </p>
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                                style="padding-top: 16px;">
                                 <tr>
-                                    <td align="center" style="background-color: #f8f9fa; border-radius: 8px; padding: 30px 20px;">
-                                        <p class="mobile-text" style="margin: 0 0 20px 0; font-size: 16px; color: #343a40; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; font-weight: bold; text-align: center;">
-                                            Start using these features today and streamline your property management like never before.
+                                    <td align="center"
+                                        style="background-color: #f8f8f8; border-radius: 10px; padding: 30px;">
+                                        <p class="mobile-text"
+                                            style="margin: 0 0 20px 0; font-size: 16px; font-weight: 600; color: #222426; line-height: 32px; text-align: left;">
+                                            Start using these features today and streamline your property management
+                                            like never before.
                                         </p>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                            align="left" style="padding: 18px 0px;">
                                             <tr>
-                                                <td class="mobile-button-padding" style="background-color: #000000; border-radius: 6px; padding: 12px 25px;">
-                                                    <a href="#" style="color: #ffffff; text-decoration: none; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">Learn more</a>
+                                                <td class="mobile-button-padding"
+                                                    style="background-color: #000000; border-radius: 40px; padding: 11px 41px;">
+                                                    <a href="#"
+                                                        style="color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 600;">Learn
+                                                        more</a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -207,46 +335,63 @@
                             </table>
                         </td>
                     </tr>
-                    
+
                     <!-- Footer Section -->
                     <tr>
-                        <td class="mobile-section-padding" style="padding: 0 40px 40px 40px; text-align: center;">
-                            <p class="mobile-text" style="margin: 0 0 10px 0; font-size: 14px; color: #6c7780; font-family: Arial, Helvetica, sans-serif;">Best regards,</p>
-                            <p class="mobile-text" style="margin: 0 0 20px 0; font-size: 16px; color: #212529; font-family: 'Brush Script MT', cursive; font-style: italic;">The Tokeet team</p>
-                            <p class="mobile-text" style="margin: 0 0 20px 0; font-size: 12px; color: #6c757d; font-family: Arial, Helvetica, sans-serif;">
-                                2025 Tokeet. All rights reserved. | 21 Pine Road, Bellevelle, St. Michaels BB11113
+                        <td class="mobile-section-padding" style="padding: 0 54px 40px 54px; text-align: center;">
+                            <p class="mobile-text"
+                                style="margin: 0 0 10px 0; font-size: 16px; color: #475059; font-weight: 500;">
+                                Best regards,</p>
+                            <img src="images/signature.png" alt="signature"
+                                style="padding-top: 18px; padding-bottom: 8px;">
+                        </td>
+                    </tr>
+                </table>
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="640" class="mobile-table"
+                    style="max-width: 640px; width: 100%;">
+                    <tr>
+                        <td>
+                            <p class="mobile-text"
+                                style="padding-top: 18px; padding-bottom: 12px; margin: 0px; font-size: 16px; color: #627A8B;">
+                                2025 Tokeet. All rights reserved. <span style="padding: 0px 10px;">|</span> 21 Pine
+                                Road, Bellevelle, St. Michaels BB11113
                             </p>
                             <!-- Social Media Icons -->
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left">
                                 <tr>
-                                    <td class="mobile-social-spacing" style="padding: 0 8px;">
+                                    <td class="mobile-social-spacing" style="padding-right: 14px;">
                                         <a href="#" style="text-decoration: none;">
-                                            <img src="images/youtube-logo.png" alt="YouTube" width="24" height="24" style="display: block; width: 24px; height: 24px;">
+                                            <img src="images/youtube-logo.png" alt="YouTube"
+                                                style="display: block; width: 24px;">
                                         </a>
                                     </td>
-                                    <td class="mobile-social-spacing" style="padding: 0 8px;">
+                                    <td class="mobile-social-spacing" style="padding-right: 14px;">
                                         <a href="#" style="text-decoration: none;">
-                                            <img src="images/facebook-logo.png" alt="Facebook" width="24" height="24" style="display: block; width: 24px; height: 24px;">
+                                            <img src="images/facebook-logo.png" alt="Facebook"
+                                                style="display: block; width: 22px;">
                                         </a>
                                     </td>
-                                    <td class="mobile-social-spacing" style="padding: 0 8px;">
+                                    <td class="mobile-social-spacing" style="padding-right: 14px;">
                                         <a href="#" style="text-decoration: none;">
-                                            <img src="images/instagram-logo.png" alt="Instagram" width="24" height="24" style="display: block; width: 24px; height: 24px;">
+                                            <img src="images/instagram-logo.png" alt="Instagram"
+                                                style="display: block; width: 24px;">
                                         </a>
                                     </td>
-                                    <td class="mobile-social-spacing" style="padding: 0 8px;">
+                                    <td class="mobile-social-spacing" style="padding-right: 14px;">
                                         <a href="#" style="text-decoration: none;">
-                                            <img src="images/linkedin-logo.png" alt="LinkedIn" width="24" height="24" style="display: block; width: 24px; height: 24px;">
+                                            <img src="images/linkedin-logo.png" alt="LinkedIn"
+                                                style="display: block; width: 20px;">
                                         </a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    
+
                 </table>
             </td>
         </tr>
     </table>
 </body>
+
 </html>
